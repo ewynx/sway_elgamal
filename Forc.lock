@@ -1,0 +1,21 @@
+[[package]]
+name = "core"
+source = "path+from-root-BD9159206068AEC6"
+
+[[package]]
+name = "elgamal_sway_practice"
+source = "member"
+dependencies = [
+    "signed_integers",
+    "std",
+]
+
+[[package]]
+name = "signed_integers"
+source = "git+https://github.com/fuellabs/sway-libs?branch=master#5d69f665207158517eba14c35c7d28cb1cb93aa9"
+dependencies = ["std"]
+
+[[package]]
+name = "std"
+source = "git+https://github.com/fuellabs/sway?tag=v0.46.1#512a3386f8961185188302f391ccc96553d23a7a"
+dependencies = ["core"]

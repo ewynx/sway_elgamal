@@ -1,0 +1,8 @@
+[project]
+authors = ["Elena"]
+entry = "lib.sw"
+license = "Apache-2.0"
+name = "elgamal_sway_practice"
+
+[dependencies]
+signed_integers = { git = "https://github.com/fuellabs/sway-libs", branch = "master" }
